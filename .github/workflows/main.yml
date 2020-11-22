@@ -14,3 +14,4 @@ jobs:
         server: lazypeople.dev
         username: github@lazypeople.dev
         password: ${{ secrets.ftp_pw }}
+        exclude: .git* .git*/**
